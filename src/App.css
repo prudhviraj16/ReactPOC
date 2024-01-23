@@ -1,0 +1,210 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Product card CSS */
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+.ui.cards > .card > .content > .header {
+  height: 48px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.ui.cards > .card > .content > .description {
+  height: 36px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.ui.cards > .card .meta.price {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.ui.cards > .card .meta.price > a {
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.ui.menu.fixed {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.ui.grid.container {
+  margin-top: 45px;
+}
+
+.ui.grid > .row {
+  background: #fff;
+}
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+/* Contact Form */
+
+.form-container {
+  display: flex;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-container img {
+  width: 50%;
+}
+.form-container .form {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.form-container .form .label {
+  margin-bottom: 8px;
+}
+
+/* Login Form Styling */
+
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+/* Login and register forms styling */
+
+.forms {
+  height: 90vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+}
+
+.form .container {
+}

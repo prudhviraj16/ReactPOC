@@ -1,0 +1,1 @@
+export const IMAGE_URL = 'https://t3.ftcdn.net/jpg/02/41/43/18/240_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg'
